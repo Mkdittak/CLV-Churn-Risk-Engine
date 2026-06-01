@@ -1,0 +1,15 @@
+pandas
+numpy
+scikit-learn
+xgboost
+lifetimes
+shap
+mlflow
+great-expectations
+sqlalchemy
+apache-airflow
+plotly
+openpyxl
+pytest
+joblib
+pyarrow

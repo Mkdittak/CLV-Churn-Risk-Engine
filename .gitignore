@@ -1,0 +1,29 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Data (never commit raw or processed data)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Model artefacts
+models/*.joblib
+models/*.pkl
+models/*.png
+!models/.gitkeep
+
+# MLflow
+mlflow.db
+mlruns/
+
+# Notebooks checkpoints
+notebooks/.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
